@@ -1,0 +1,12 @@
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+bgm:bgm_hero.mp3 -volume=50;
+changeBg:bg_space.jpg -next;
+changeFigure:clown_worried.png -next -center=true;
+:他松开紧握的脚，也松开了执念。
+:皮屑化作星辰，照亮了宇宙的黑暗。;
+intro:结局一 成为脚皮星球的英雄 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+unlockCg:cg_hero.jpg;
+unlockBgm:;
+playVideo:3.mp4 -skipOff;
+end;

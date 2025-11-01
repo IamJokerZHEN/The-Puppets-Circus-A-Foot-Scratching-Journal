@@ -1,0 +1,12 @@
+changeBg:bg_bank.jpg -next -unlockname=脚皮银行;
+bgm:bgm_battle.mp3 -volume=70;
+setTransform:shake -next -duration=500;
+playEffect:se_laser.mp3 -volume=80 -id=laser;
+changeFigure:clown_battle.png -left -next;
+小丑:想要我的脚皮？先问问我同意不同意！
+playEffect:none -id=laser;
+:他脱下袜子，如挥舞战旗。
+changeFigure:alien_angry.png -right;
+外星人:愚蠢的地球人！
+:激光与脚皮，跨越星际的荒诞对决。
+callScene:chapter4_plane.txt;

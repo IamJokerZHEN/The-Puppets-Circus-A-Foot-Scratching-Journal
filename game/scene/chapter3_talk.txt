@@ -1,0 +1,16 @@
+changeBg:bg_bank.jpg;
+bgm:bgm_tension.mp3 -volume=60;
+changeFigure:clown_thinking.png -left;
+小丑:等等！我们可以谈谈条件！
+:他试图用智慧化解干戈。
+changeFigure:alien_surprised.png -right;
+外星人:用你那散发着宇宙能量的脚皮？
+:外星人的触手因惊讶而卷曲。
+changeFigure:bank_manager.png -center;
+银行行长:小心！外星人最擅长欺骗！
+:话音未落，外星人突然抬手！
+setTransform:shake -duration=400;
+playEffect:se_laser.mp3 -volume=80 -id=surprise;
+外星人:谈判结束，拿来吧你！
+playEffect:none -id=surprise;
+callScene:chapter4_plane.txt;

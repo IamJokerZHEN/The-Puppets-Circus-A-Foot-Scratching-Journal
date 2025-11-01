@@ -1,0 +1,17 @@
+pixiInit;
+intro:第二章·冲突 -fontSize=large -backgroundColor=rgba(0,0,0,1) -fontColor=rgba(255,255,255,1) -animation=fadeIn -delayTime=2000;
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+changeBg:bg_bank.jpg;
+bgm:bgm_bank.mp3 -volume=60;
+changeFigure:bank_manager.png -center=true -transform={"position":{"x":-50}} -id=bm;
+银行行长:欢迎光临脚皮银行！我是行长阿丑，负责保管全宇宙最珍贵的脚皮资源！
+:行长的笑容里藏着说不清道不明的味道。
+changeFigure:clown_worried.png -left -next;
+小丑:这地方比我的袜子还臭……
+:空气突然凝固，一道绿光闪过。
+外星人:交出你的脚皮！ -spider.mp3 -notend;
+changeFigure:alien_angry.png -right;
+小丑:这就是外星人？长得真奇怪……
+changeFigure:none -id=bm;
+choose:英勇抵抗:chapter3_fight.txt|试图谈判:chapter3_talk.txt|假装投降:chapter3_trick.txt;

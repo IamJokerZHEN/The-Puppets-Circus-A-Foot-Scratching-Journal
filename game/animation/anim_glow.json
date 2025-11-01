@@ -1,0 +1,10 @@
+{
+  "name": "glow",
+  "target": "figure",
+  "loop": true,
+  "frames": [
+    { "time": 0,     "alpha": 0, "filters": { "@type": "GlowFilter", "distance": 10, "outerStrength": 0, "color": "#ffff00" } },
+    { "time": 0.5,   "alpha": 1, "filters": { "@type": "GlowFilter", "distance": 25, "outerStrength": 4, "color": "#ffff00" } },
+    { "time": 1.0,   "alpha": 0, "filters": { "@type": "GlowFilter", "distance": 10, "outerStrength": 0, "color": "#ffff00" } }
+  ]
+}

@@ -1,0 +1,25 @@
+pixiInit;
+intro:第一章·觉醒 -fontSize=large -backgroundColor=rgba(0,0,0,1) -fontColor=rgba(255,255,255,1) -animation=fadeIn -delayTime=2000;
+changeBg:bg_bedroom.jpg -next -unlockname=臻床;
+bgm:titlebgmusic.mp3 -volume=60;
+setAnimation:anim_glow -next -target=left;
+:清晨的阳光透过窗帘缝隙，照在这间凌乱的卧室里。;
+changeFigure:clown_normal.png -left -next -ease=easeIn;
+小丑:啊...又是新的一天，我的脚趾头在召唤我……;
+playEffect:se_scratch.mp3 -volume=80 -id=scratch;
+小丑:这感觉...比哲学更深刻！
+setAnimation:anim_glow -target=left;
+playEffect:none -id=scratch;
+小丑:等等...我的脚皮在发光？！ -notend;
+changeFigure:clown_excited.png -left;
+床精:年轻人...你终于觉醒了！
+changeFigure:bed.png -right -next -transform={"position":{"x":250},"scale":{"x":0.7,"y":0.7}};
+:三百年的床精首次开口说话。
+小丑:哇啊！我的床在说话？！
+:此时，一位不速之客破门而入。
+changeFigure:mushroom_cow_normal.png -right -transform={"position":{"x":150},"scale":{"x":0.7,"y":0.7}};
+蘑菇牛:我是蘑菇牛，脚皮银行的使者！;
+小丑:蘑菇？牛？这组合也太奇怪了吧...
+蘑菇牛:什么意思?!;
+算了,我代表脚皮银行邀请你去贵公司参观;
+choose:立即跟随蘑菇牛:chapter2_bank.txt|要求更多解释:chapter2_explain.txt|继续淡定抠脚:chapter2_ignore.txt;

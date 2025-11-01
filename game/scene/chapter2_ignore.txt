@@ -1,0 +1,8 @@
+changeBg:bg_bedroom.jpg;
+changeFigure:clown_normal.png -left;
+小丑:（继续抠脚）嗯……这个角落皮比较厚。
+:他选择做一只逃避现实的鸵鸟。
+蘑菇牛:强制带走！ -notend;
+changeFigure:mushroom_cow_angry.png -right -transform={"position":{"x":150},"scale":{"x":0.7,"y":0.7}} -ease=bounceIn;
+:蘑菇牛的蹄子踏出不容拒绝的节奏。
+callScene:chapter2_bank.txt;

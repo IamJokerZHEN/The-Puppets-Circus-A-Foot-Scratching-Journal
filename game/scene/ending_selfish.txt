@@ -1,0 +1,11 @@
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+bgm:bgm_lonely.mp3 -volume=40;
+changeBg:bg_void.jpg -next;
+changeFigure:clown_normal.png -next -center=true;
+:他抱紧自己的脚，像抱住最后的岛屿。
+:世界在远方崩塌，孤独在脚边发芽。;
+intro:结局三 孤儿|Family = 1 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+unlockCg:cg_lonely.jpg;
+playVideo:1.mp4 -skipOff;
+end;

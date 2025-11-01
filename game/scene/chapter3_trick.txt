@@ -1,0 +1,15 @@
+changeBg:bg_bank.jpg -next;
+bgm:bgm_battle.mp3 -volume=70;
+setTransform:shake -next -duration=300;
+playEffect:se_whoosh.mp3 -volume=70 -id=whoosh;
+changeFigure:clown_normal.png -left -next;
+小丑:好的好的，我给你脚皮……（假装弯腰）
+:他眼底闪过狡黠的光。
+playEffect:none -id=whoosh;
+changeFigure:clown_excited.png -left -next;
+小丑:去吧！我的脚皮飞弹！ -se_laser.mp3;
+:陈年脚皮如天女散花。 -BOMB.mp3;
+changeFigure:alien_surprised.png -right -next;
+外星人:不！我的弱点就是分散注意力！;
+:外星人被脚皮迷了眼。
+callScene:chapter4_plane.txt;

@@ -1,0 +1,8 @@
+Game_name:跳梁小丑抠脚记;
+Game_key:150dedd9db8c463;
+Description:By JokerZHEN;
+Package_name:JokerZHEN.The_Puppets_Circus:_A_Foot_Scratching_Journal;
+Title_img:titlebg.png;
+Default_Language:zh_CN;
+Title_bgm:titlebgmusic.mp3;
+Game_Logo:GT NETWORK 16.png;

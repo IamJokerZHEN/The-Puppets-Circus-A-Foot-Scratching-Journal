@@ -1,0 +1,8 @@
+changeBg:bg_bedroom.jpg -next;
+changeFigure:mushroom_cow_worried.png -right -next -transform={"position":{"x":150},"scale":{"x":0.7,"y":0.7}};
+蘑菇牛:外星人正在收集我们的脚皮资源！;
+:蘑菇牛的菌盖因焦急而颤抖。
+changeFigure:clown_thinking.png -left -transform={"position":{"x":150},"scale":{"x":0.8,"y":0.8}};
+小丑:听起来很可疑……
+:他下意识抱紧了自己的脚。
+callScene:chapter2_bank.txt;

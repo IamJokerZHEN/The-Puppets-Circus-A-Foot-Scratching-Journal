@@ -1,0 +1,18 @@
+pixiInit;
+intro:第三章·逃亡 -fontSize=large -backgroundColor=rgba(0,0,0,1) -fontColor=rgba(255,255,255,1) -animation=fadeIn -delayTime=2000;
+changeBg:bg_plane.jpg -next;
+bgm:bgm_run.mp3 -volume=65;
+changeFigure:pilot_normal.png -next -center=true;
+:万米高空，钢铁巨鸟划破云层。
+机长:我是机长……虽然我有恐高症……
+changeFigure:clown_worried.png -left;
+小丑:为什么我们会在飞机上？
+:命运总爱把人抛向荒诞的旅程。
+changeFigure:alien_angry.png -right;
+外星人:站住！我的脚皮！
+playEffect:se_turbulence.mp3 -volume=90 -id=turb;
+:飞机在云端颠簸，如人生在抉择中摇摆。
+playEffect:none -id=turb;
+changeFigure:clown_thinking.png -left -next;
+小丑:看来只能做最终选择了…… -notend;
+choose:牺牲自己拯救世界:ending_hero.txt|保留脚皮让世界毁灭:ending_selfish.txt|提出双赢贸易方案:ending_wisdom.txt

@@ -1,0 +1,15 @@
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+changeFigure:none -center -next;
+bgm:bgm_peace.mp3 -volume=60;
+changeBg:bg_handshake.jpg -next;
+changeFigure:clown_excited.png -left -next;
+小丑:我们可以建立贸易关系！;
+:他的眼睛亮起来，像发现新大陆。 -notend;
+changeFigure:alien_surprised.png -right -next;
+外星人:这想法太棒了！;
+:荒诞的想法，开出和平的花。;
+intro:结局二 资本家做局 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+unlockCg:cg_peace.jpg;
+playVideo:2.mp4 -skipOff;
+end;
